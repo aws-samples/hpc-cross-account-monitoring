@@ -3,7 +3,7 @@
 ## Serverless HPC Cluster Monitoring using CloudWatch Cross-Account Observability.
 
 <b>Description</b>:
-This application demonstrates how different AWS services can be leveraged to monitor state changes for AWS EC2-based HPC clusters. It leverages AWS Lambda to perform filtering and message handling in conjunction with CloudWatch Cross-Account Observability and Amazon EventBridge to build a lightweight serverless monitoring architecture. This reference architecture is meant to be used as a basis and framework for further customized processing, sorting, presentation and notifications.
+This application demonstrates how different AWS services can be leveraged to monitor state changes for AWS EC2-based HPC clusters. It leverages AWS Lambda to perform filtering and message handling in conjunction with CloudWatch Cross-Account Observability and Amazon EventBridge to build a lightweight serverless monitoring architecture. This reference architecture is meant to serve as foundation and framework for further customized processing, sorting, presentation and notifications.
 
 _<b>Use case 1</b>_: A customer organization has many separate divisions using separate AWS accounts deploying elastic EC2-based HPC clusters. A central IT admin group wants to monitor these resources in real time from a single centralized source to better manage workflows and to be aware of current resource utilization.
 
